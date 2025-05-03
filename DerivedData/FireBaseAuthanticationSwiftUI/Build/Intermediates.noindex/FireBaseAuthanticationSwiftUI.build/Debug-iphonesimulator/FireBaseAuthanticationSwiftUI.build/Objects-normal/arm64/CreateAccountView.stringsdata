@@ -1,0 +1,32 @@
+{
+  "source": "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/FireBaseAuthanticationSwiftUI/Screens/Auth/Views/CreateAccountView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Set up your account",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Please complete all information to create an account.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Account",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 30
+        }
+      }
+    ]
+  },
+  "version": 1
+}

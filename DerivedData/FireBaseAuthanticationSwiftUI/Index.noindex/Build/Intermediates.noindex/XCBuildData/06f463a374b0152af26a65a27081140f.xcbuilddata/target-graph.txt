@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'FireBaseAuthanticationSwiftUI' in project 'FireBaseAuthanticationSwiftUI' (no dependencies)
+Target 'FireBaseAuthanticationSwiftUI' in project 'FireBaseAuthanticationSwiftUI' (no dependencies)

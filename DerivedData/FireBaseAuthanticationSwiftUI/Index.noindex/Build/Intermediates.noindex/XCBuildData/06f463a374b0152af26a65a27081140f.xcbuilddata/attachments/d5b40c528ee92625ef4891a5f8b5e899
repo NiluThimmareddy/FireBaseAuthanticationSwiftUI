@@ -1,0 +1,27 @@
+{
+  "" : {
+    "dependencies" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/DerivedData/FireBaseAuthanticationSwiftUI/Index.noindex/Build/Intermediates.noindex/FireBaseAuthanticationSwiftUI.build/Debug-iphoneos/FireBaseAuthanticationSwiftUI.build/Objects-normal/arm64/FireBaseAuthanticationSwiftUI-master.d",
+    "diagnostics" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/DerivedData/FireBaseAuthanticationSwiftUI/Index.noindex/Build/Intermediates.noindex/FireBaseAuthanticationSwiftUI.build/Debug-iphoneos/FireBaseAuthanticationSwiftUI.build/Objects-normal/arm64/FireBaseAuthanticationSwiftUI-master.dia",
+    "emit-module-dependencies" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/DerivedData/FireBaseAuthanticationSwiftUI/Index.noindex/Build/Intermediates.noindex/FireBaseAuthanticationSwiftUI.build/Debug-iphoneos/FireBaseAuthanticationSwiftUI.build/Objects-normal/arm64/FireBaseAuthanticationSwiftUI-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/DerivedData/FireBaseAuthanticationSwiftUI/Index.noindex/Build/Intermediates.noindex/FireBaseAuthanticationSwiftUI.build/Debug-iphoneos/FireBaseAuthanticationSwiftUI.build/Objects-normal/arm64/FireBaseAuthanticationSwiftUI-master-emit-module.dia",
+    "swift-dependencies" : "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/DerivedData/FireBaseAuthanticationSwiftUI/Index.noindex/Build/Intermediates.noindex/FireBaseAuthanticationSwiftUI.build/Debug-iphoneos/FireBaseAuthanticationSwiftUI.build/Objects-normal/arm64/FireBaseAuthanticationSwiftUI-master.swiftdeps"
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/DerivedData/FireBaseAuthanticationSwiftUI/Index.noindex/Build/Intermediates.noindex/FireBaseAuthanticationSwiftUI.build/Debug-iphoneos/FireBaseAuthanticationSwiftUI.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/FireBaseAuthanticationSwiftUI/Main/ContentView.swift" : {
+
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/FireBaseAuthanticationSwiftUI/Main/FireBaseAuthanticationSwiftUIApp.swift" : {
+
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/FireBaseAuthanticationSwiftUI/Screens/Auth/Views/InputView.swift" : {
+
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/FireBaseAuthanticationSwiftUI/Screens/Auth/Views/LoginView.swift" : {
+
+  },
+  "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/FireBaseAuthanticationSwiftUI/Screens/Auth/Views/Style/CapsuleButtonStyle.swift" : {
+
+  }
+}

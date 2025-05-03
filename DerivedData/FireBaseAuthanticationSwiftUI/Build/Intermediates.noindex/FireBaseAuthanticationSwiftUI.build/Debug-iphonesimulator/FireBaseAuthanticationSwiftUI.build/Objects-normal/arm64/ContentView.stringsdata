@@ -1,0 +1,16 @@
+{
+  "source": "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/FireBaseAuthanticationSwiftUI/Main/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello, world!",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 22
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,72 @@
+{
+  "source": "/Users/toqsoft/Desktop/BootCamp-YoutubeVideos/FireBaseAuthanticationSwiftUI/FireBaseAuthanticationSwiftUI/Screens/Auth/Views/LoginView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Let's Connect with us!",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "Forgot password?",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Login",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "or",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign up with Apple",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign up with google",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Don't have an account?",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign Up",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 154
+        }
+      }
+    ]
+  },
+  "version": 1
+}
