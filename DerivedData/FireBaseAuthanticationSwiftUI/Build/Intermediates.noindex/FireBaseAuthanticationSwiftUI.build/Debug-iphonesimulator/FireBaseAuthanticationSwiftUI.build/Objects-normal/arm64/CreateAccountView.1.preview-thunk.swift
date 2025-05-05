@@ -18,9 +18,11 @@ struct CreateAccountView: View {
     @State private var fullName : String = ""
     @State  private var password : String = ""
     @State private var cPassword : String = ""
+    @EnvironmentObject  var authViewModel : AuthViewModel
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
-        VStack(spacing: __designTimeInteger("#88489_0", fallback: 16)) {
-            Text(__designTimeString("#88489_1", fallback: "Please complete all information to create an account."))
+        VStack(spacing: __designTimeInteger("#4393_0", fallback: 16)) {
+            Text(__designTimeString("#4393_1", fallback: "Please complete all information to create an account."))
                 .font(.headline).fontWeight(.medium)
                 .foregroundStyle(.gray)
                 .multilineTextAlignment(.center)
@@ -31,9 +33,15 @@ struct CreateAccountView: View {
             Spacer()
             
             Button {
+                Task{
+                    await authViewModel.creatUser(email: email, fullName: fullName, password: password)
+                }
                 
+                if !authViewModel.isError{
+                    presentationMode.wrappedValue.dismiss()
+                }
             } label: {
-                Text(__designTimeString("#88489_2", fallback: "Create Account"))
+                Text(__designTimeString("#4393_2", fallback: "Create Account"))
                 
             }
             .buttonStyle(CapsuleButtonStyle(bgColor: .teal,textColor: .white))
@@ -41,7 +49,7 @@ struct CreateAccountView: View {
             .padding()
             
         }
-        .navigationTitle(__designTimeString("#88489_3", fallback: "Set up your account"))
+        .navigationTitle(__designTimeString("#4393_3", fallback: "Set up your account"))
         .padding()
         
      
@@ -58,31 +66,31 @@ struct CreateAccountView: View {
         
         return VStack{
             InputView(
-                placeholder: __designTimeString("#88489_4", fallback: "Email or Phone Number "),
+                placeholder: __designTimeString("#4393_4", fallback: "Email or Phone Number "),
                 text: $email
             )
             
             InputView(
-                placeholder: __designTimeString("#88489_5", fallback: "Full Name"),
+                placeholder: __designTimeString("#4393_5", fallback: "Full Name"),
                 text: $fullName
             )
             
             InputView(
-                placeholder: __designTimeString("#88489_6", fallback: "Password"),
-                isSecureField: __designTimeBoolean("#88489_7", fallback: true),
+                placeholder: __designTimeString("#4393_6", fallback: "Password"),
+                isSecureField: __designTimeBoolean("#4393_7", fallback: true),
                 text: $password
             )
             
             ZStack(alignment: .trailing) {
                 InputView(
-                    placeholder: __designTimeString("#88489_8", fallback: "Confirm your Password"),
-                    isSecureField: __designTimeBoolean("#88489_9", fallback: true),
+                    placeholder: __designTimeString("#4393_8", fallback: "Confirm your Password"),
+                    isSecureField: __designTimeBoolean("#4393_9", fallback: true),
                     text: $cPassword
                 )
                 Spacer()
                 
                 if !password.isEmpty && !cPassword.isEmpty {
-                    Image(systemName: "\(isValidPassword ? __designTimeString("#88489_10", fallback: "checkmark") : __designTimeString("#88489_11", fallback: "xmark")).circle.fill")
+                    Image(systemName: "\(isValidPassword ? __designTimeString("#4393_10", fallback: "checkmark") : __designTimeString("#4393_11", fallback: "xmark")).circle.fill")
                         .imageScale(.large)
                         .fontWeight(.bold)
                         .foregroundColor(isValidPassword ? Color(.systemGreen) : Color(.systemRed))
@@ -96,4 +104,5 @@ struct CreateAccountView: View {
 
 #Preview {
     CreateAccountView()
+        .environmentObject(AuthViewModel())
 }

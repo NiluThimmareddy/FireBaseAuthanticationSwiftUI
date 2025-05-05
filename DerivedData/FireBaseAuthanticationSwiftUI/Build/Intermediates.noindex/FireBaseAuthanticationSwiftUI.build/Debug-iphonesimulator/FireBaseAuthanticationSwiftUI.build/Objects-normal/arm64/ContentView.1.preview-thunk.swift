@@ -15,13 +15,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: __designTimeString("#59783_0", fallback: "globe"))
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text(__designTimeString("#59783_1", fallback: "Hello, world!"))
-        }
-        .padding()
+        LoginView()
     }
 }
 
